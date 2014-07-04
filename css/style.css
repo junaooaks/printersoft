@@ -1,0 +1,25 @@
+/* 
+    Document   : style
+    Created on : 07/07/2010, 17:11:24
+    Author     : JUNAOOAKS
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body {
+    /*tirar as margem da pagina*/
+    margin:0;
+    padding:0;
+    /*tamanho padrao da fonte*/
+    font-size:10px;
+    /*fonte padrao*/
+    font-family:Verdana;
+    /*inserir imagem de fundo*/
+    /*background-image:url("../imagem/logonp.png");*/
+    /*imagem nao vai repet na tela*/
+    background-repeat:no-repeat;
+    /*posição da imagem na tela*/
+    background-position:100% 40%;
+
+}

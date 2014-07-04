@@ -1,0 +1,26 @@
+/* 
+    Document   : form
+    Created on : 04/08/2010, 11:48:54
+    Author     : udismar oaks junior
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+input, select, textarea, checkbox, radio, file, button {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+body {
+    /*tirar as margem da pagina*/
+    margin:0;
+    padding:0;
+    /*tamanho padrao da fonte*/
+    font-size:10px;
+    /*fonte padrao*/
+    font-family:Verdana;
+    
+}
+

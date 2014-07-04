@@ -1,0 +1,205 @@
+/******************************************************************************/
+/* general tags */
+html {
+    font-size: 82%;
+}
+
+input, select, textarea {
+    font-size: 1em;
+}
+
+
+body {
+    font-family:        sans-serif;
+    padding:            0;
+   
+    color:              #000000;
+    
+}
+
+textarea, tt, pre, code {
+    font-family:        monospace;
+}
+h1 {
+    font-size:          140%;
+    font-weight:        bold;
+}
+
+h2 {
+    font-size:          120%;
+    font-weight:        bold;
+}
+
+h3 {
+    font-weight:        bold;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration:    none;
+    color:              #0000FF;
+}
+
+a:hover {
+    text-decoration:    underline;
+    color:              #FF0000;
+}
+
+dfn {
+    font-style:         normal;
+}
+
+dfn:hover {
+    font-style:         normal;
+    cursor:             help;
+}
+
+th {
+    font-weight:        bold;
+    color:              #000000;
+    background:         #D3DCE3;
+}
+
+
+
+hr {
+    color:              #000000;
+    background-color:   #000000;
+    border:             0;
+    height:             1px;
+}
+
+form {
+    padding:            0;
+    margin:             0;
+    display:            inline;
+}
+
+textarea {
+    overflow:           visible;
+    height:             9em;
+}
+
+fieldset {
+    margin-top:         1em;
+    border:             #000000 solid 0px;
+    padding:            0.5em;
+    background:         #E5E5E5;
+}
+
+fieldset fieldset {
+    
+}
+
+fieldset legend {
+    font-weight:        bold;
+    color:              #444444;
+    background-color:   transparent;
+}
+
+/* buttons in some browsers (eg. Konqueror) are block elements,
+   this breaks design */
+button {
+    display:            inline;
+}
+
+table caption,
+table th,
+table td {
+    padding:            0.1em 0.5em 0.1em 0.5em;
+    
+    vertical-align:     top;
+}
+
+img,
+input,
+select,
+button {
+    vertical-align:     middle;
+}
+
+
+/******************************************************************************/
+/* classes */
+div.tools {
+    border: 0px solid #000000;
+    padding: 0.2em;
+}
+
+div.tools,
+fieldset.tblFooters {
+    margin-top:         0;
+    
+    /* avoid a thick line since this should be used under another fieldset */
+    border-top:         0;
+    text-align:         right;
+    float:              none;
+    clear:              both;
+}
+
+fieldset .formelement {
+    float:              left;
+    
+    /* IE */
+    white-space:        nowrap;
+}
+
+/* revert for Gecko */
+fieldset div[class=formelement] {
+    white-space:        normal;
+}
+
+button.mult_submit {
+   
+    background-color:   transparent;
+}
+
+/* odd items 1,3,5,7,... */
+table tr.odd th,
+.odd {
+    background: #E5E5E5;
+}
+
+/* even items 2,4,6,8,... */
+table tr.even th,
+.even {
+    background: #D5D5D5;
+}
+
+/* odd table rows 1,3,5,7,... */
+table tr.odd th,
+table tr.odd,
+table tr.even th,
+table tr.even {
+    text-align:         left;
+}
+
+/* marked table rows */
+table tr.marked th,
+table tr.marked {
+    background:   #FFCC99;
+    color:   #000000;
+}
+
+
+
+
+
+/*daqui pra baixo precisa*/
+
+/* hovered items */
+.odd:hover,
+.even:hover,
+.hover {
+    background: #CCFFCC;
+    color: #000000;
+}
+
+/* hovered table rows */
+table tr.odd:hover th,
+table tr.even:hover th,
+table tr.hover th {
+    background:   #CCFFCC;
+    color:   #000000;
+}
